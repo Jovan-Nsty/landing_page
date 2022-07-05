@@ -3,6 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/*header style*/
+
 header {
     display: flex;
     background-color: #1F2937;
@@ -12,7 +14,7 @@ header {
 
 .header-logo {
     flex: 2 1 0;
-    padding-left: 330px;
+    margin-left: 430px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -20,7 +22,7 @@ header {
 .header-links {
     flex: 1 2 0;
     display: flex;
-    padding-right: 250px;
+    margin-right: 300px;
     gap: 25px;
 }
 
@@ -30,4 +32,53 @@ a {
     color: #E5E7EB;
     text-decoration: none;
     list-style-type: none;
+}
+
+/*section one style*/
+
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+    padding: 150px;
+    justify-content: space-between;
+}
+
+.section-one-content {
+    width: 400px;
+    height: 300px;
+    margin-left: 280px;
+}
+
+.section-one-image {
+    width: 480px;
+    height: 250px;
+    margin-right: 150px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
 }
