@@ -59,6 +59,12 @@ a {
     justify-content: center;
     color: #F9FAF8;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+.section-one-image img {
+    margin-left: -160px;
+    text-indent: 160px;
 }
 
 h1 {
